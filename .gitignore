@@ -1,13 +1,23 @@
 # 竖屏接力分屏软件 .gitignore 文件
 
-# 忽略所有文件和文件夹
-/*
+# 忽略VSCode配置文件夹
+.vscode/
 
-# 但保留以下文件
-!.gitignore
-!README.md
-!GitHub_Upload_Guide.md
+# 忽略编译输出和临时文件
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.log
+*.bak
 
-# 但保留ScreenSplitterCore文件夹及其内容
-!/ScreenSplitterCore/
-!/ScreenSplitterCore/**/*
+# 忽略系统文件
+Thumbs.db
+.DS_Store
+
+# 忽略IDE相关文件
+.idea/
+*.swp
+*.swo
+*~
